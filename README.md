@@ -10,6 +10,10 @@ Before writing to the ROM, the script performs several sanity checks:
 - There are exactly 700 rows in 'team_lineups_$YEAR' (28 teams, 25 players per team)
 - Every team has exactly one of every position in their starting lineup
 
+Usage: `ken_griffey_jr_presents_mlb-rom_modifier-by_johnz1.py <path to ROM file> --db <path to DB file> --year <year>`
+
+The path to the DB file can be specified in the script with the "DEFAULT_DB_PATH" variable.
+
 
 # SQLite Projects Database
 All player and team data is stored in the SQLite DB.  This was designed to support multiple seasons in a single DB, so some tables and columns need to have the year in their name.  The 2007 season has been included as examples of this.  For my 2007 project, I used stats from baseballguru.com (in the 'stats_2007' table), which uses the same player ID's as baseball-reference.com.
