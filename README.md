@@ -55,14 +55,14 @@ Here are value mappings for columns in the 'players' table:
   - 4 = Black
   - 5 = Blonde
 - appearance_bat_body (I have not figured out exactly what the difference is between all of these)
-  - 0 = Average ?
-  - 1 = Skinny ?
+  - 0 = Average, short torso
+  - 1 = Average, tall torso
   - 2 = Big, bat held close to body ?
-  - 3 = Small ?
+  - 3 = Small, bat held at 45 degrees ?
   - 4 = Big, bat held away from body ?
-  - 5 = Average ?
+  - 5 = Average, tall torso (exactly the same as 1)
   - 6 = Small ?
-  - 7 = Average ?
+  - 7 = Average, short torso (exactly the same as 0)
 - appearance_bat_legs_size
   - 0 = Average
   - 1 = Small
